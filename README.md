@@ -64,45 +64,41 @@
 | [039](parts/part039.md) | Qt Test Framework | 551-565 |
 | [040](parts/part040.md) | Qt Performance Optimization | 566-580 |
 
-### ระดับที่ 5: Professional Level (Parts 121-150)
+### ระดับที่ 5: Professional Level (Parts 041-050)
 | Part | หัวข้อ | ขั้นตอน |
 |------|--------|---------|
-| [041](parts/part041.md) | Design Patterns ใน C++ และ Qt | 581-595 |
-| [042](parts/part042.md) | Software Architecture: MVC, MVP, MVVM | 596-610 |
-| [043](parts/part043.md) | Cross-Platform Deployment | 611-625 |
-| [044](parts/part044.md) | CI/CD สำหรับ Qt Projects | 626-640 |
-| [045](parts/part045.md) | Security Programming | 641-655 |
-| [046](parts/part046.md) | Advanced Database Design | 656-670 |
-| [047](parts/part047.md) | REST API Client ด้วย Qt | 671-685 |
-| [048](parts/part048.md) | Real-time Applications | 686-700 |
-| [049](parts/part049.md) | Qt for Embedded Systems | 701-715 |
-| [050](parts/part050.md) | Performance Profiling | 716-730 |
+| [041](parts/part041.md) | Design Patterns: Service Locator, EventBus, Command+History, DI | 581-595 |
+| [042](parts/part042.md) | C++ Metaprogramming: TypeList, FixedString, FSM, CRTP, TypeErasure | 596-610 |
+| [043](parts/part043.md) | Performance: Object Pool, SoA, FastListModel | 611-625 |
+| [044](parts/part044.md) | Qt OpenGL: QOpenGLWidget, GLSL, VAO/VBO, Phong Shading | 626-640 |
+| [045](parts/part045.md) | Qt Charts: QChart, real-time, QBarSeries, QScatterSeries | 641-655 |
+| [046](parts/part046.md) | Qt Testing: QTest, QSignalSpy, QBENCHMARK, CTest, CI | 656-670 |
+| [047](parts/part047.md) | Qt Quick 3D: View3D, PerspectiveCamera, DirectionalLight | 671-685 |
+| [048](parts/part048.md) | Qt File System: QFileSystemModel, dual-pane file manager | 686-700 |
+| [049](parts/part049.md) | Qt PDF: QPdfDocument, QPdfView, QPrinter, report generation | 701-715 |
+| [050](parts/part050.md) | Qt OpenGL Advanced: MeshRenderer, mouse interaction | 716-730 |
 
-### ระดับที่ 6: World Class Level (Parts 151-180)
+### ระดับที่ 7: World-Class Advanced (Parts 051-068)
 | Part | หัวข้อ | ขั้นตอน |
 |------|--------|---------|
-| [051](parts/part051.md) | Advanced C++ Metaprogramming | 731-745 |
-| [052](parts/part052.md) | Custom Qt Module Development | 746-760 |
-| [053](parts/part053.md) | High-Performance Computing | 761-775 |
-| [054](parts/part054.md) | GPU Programming กับ Qt | 776-790 |
-| [055](parts/part055.md) | Microservices Architecture | 791-805 |
-| [056](parts/part056.md) | Machine Learning Integration | 806-820 |
-| [057](parts/part057.md) | IoT Applications | 821-835 |
-| [058](parts/part058.md) | Game Development ด้วย Qt | 836-850 |
-| [059](parts/part059.md) | Enterprise Application Development | 851-865 |
-| [060](parts/part060.md) | Open Source Contribution | 866-880 |
-
-### ระดับที่ 7: Capstone Projects (Parts 181-200+)
-| Part | หัวข้อ | ขั้นตอน |
-|------|--------|---------|
-| [061](parts/part061.md) | โปรเจกต์: Text Editor | 881-895 |
-| [062](parts/part062.md) | โปรเจกต์: Image Viewer | 896-910 |
-| [063](parts/part063.md) | โปรเจกต์: Music Player | 911-925 |
-| [064](parts/part064.md) | โปรเจกต์: Chat Application | 926-940 |
-| [065](parts/part065.md) | โปรเจกต์: Database Manager | 941-955 |
-| [066](parts/part066.md) | โปรเจกต์: Web Browser | 956-970 |
-| [067](parts/part067.md) | โปรเจกต์: IDE (Code Editor) | 971-985 |
-| [068](parts/part068.md) | โปรเจกต์: 2D Game | 986-1000 |
+| [051](parts/part051.md) | Packaging & Deployment (CPack, GitHub Actions, IFW) | 731-745 |
+| [052](parts/part052.md) | ERP Capstone Part 1 — Database, Customer, Repository | 746-760 |
+| [053](parts/part053.md) | ERP Capstone Part 2 — Product, Sales Orders | 761-775 |
+| [054](parts/part054.md) | ERP Capstone Part 3 — Dashboard, Charts, PDF Invoice | 776-790 |
+| [055](parts/part055.md) | ERP Capstone Part 4 — Main Window, Side Nav, CSV Export | 791-805 |
+| [056](parts/part056.md) | Plugin Architecture (QPluginLoader, Q_DECLARE_INTERFACE) | 806-820 |
+| [057](parts/part057.md) | Advanced QML (ContactModel, Drawer, StackView, Transitions) | 821-835 |
+| [058](parts/part058.md) | Security (PBKDF2, JWT HS256, Account Locking) | 836-850 |
+| [059](parts/part059.md) | REST API & WebSocket Client (auto-reconnect, real-time) | 851-865 |
+| [060](parts/part060.md) | ERP Capstone Final — main.cpp, Stylesheet, CMakeLists | 866-880 |
+| [061](parts/part061.md) | SIMD Optimization & Profiling (AVX, AlignedVector, RAII) | 881-895 |
+| [062](parts/part062.md) | Lock-Free Concurrency (Treiber Stack, SPSC Queue, ThreadPool) | 896-910 |
+| [063](parts/part063.md) | Internationalization & Accessibility (i18n, RTL, a11y) | 911-925 |
+| [064](parts/part064.md) | Advanced Testing & CI/CD (Fuzzing, Coverage, GitHub Actions) | 926-940 |
+| [065](parts/part065.md) | Qt for Embedded & IoT (GPIO, Serial, MQTT, cross-compile) | 941-955 |
+| [066](parts/part066.md) | World-Class Final Review & Career Path | 956-970 |
+| [067](parts/part067.md) | Appendix A — Qt Quick Reference Cheatsheet | 971-985 |
+| [068](parts/part068.md) | Appendix B — C++ Best Practices & Step 1000 | 986-1000 |
 
 ---
 
